@@ -1,13 +1,17 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import * as QRCode from 'qrcode';
 
-
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: 'app-teste',
+  templateUrl: './teste.component.html',
+  styleUrls: ['./teste.component.scss']
 })
-export class AppComponent {
+export class TesteComponent implements OnInit {
+
+  ngOnInit(): void {
+    throw new Error('Method not implemented.');
+  }
+
   title = 'qrcode-angular';
 
   async downloadQRCode() {
@@ -20,4 +24,5 @@ export class AppComponent {
     link.click();
     document.body.removeChild(link);
   }
+
 }

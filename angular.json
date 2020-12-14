@@ -31,7 +31,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/animate.css/animate.min.css"
             ],
             "scripts": []
           },
@@ -94,7 +95,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/animate.css/animate.min.css"
             ],
             "scripts": []
           }
@@ -127,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "qrcode-angular"
+  "defaultProject": "qrcode-angular",
+  "cli": {
+    "analytics": "ba6308a3-3412-4d63-a5c2-058fab035f67"
+  }
 }
